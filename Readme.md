@@ -3,4 +3,4 @@
 Projeto desenvolvido durante bootcamp da DIO.
 
 Screenshot do projeto concluído:
-![recriação inteface netflix](img/screenshot)
+![recriação inteface netflix](img/screenshot.jpeg)
