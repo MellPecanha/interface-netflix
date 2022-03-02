@@ -1,0 +1,107 @@
+
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinza: #aaa;
+    --branco: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body{
+    background: var(--preto);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--branco);
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+        margin: 10px;
+        height: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--branco);
+}
+
+.container{
+    margin-left: 5px;
+}
+/*filme principal*/
+
+.filme-principal{
+    font-size: 17px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/breaking-bad.jpg');
+
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.filme-principal .titulo{
+    margin-top: 33%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filme-principal .descricao{
+    margin-top: 2%;
+    margin-bottom: 40px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;    
+    border-radius: 5px;
+    color: var(--branco);
+
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+.box-filme{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
+}
